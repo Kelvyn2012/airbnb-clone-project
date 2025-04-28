@@ -74,4 +74,19 @@ belongs to one Booking
 belongs to one Property
 written by one User
 
+Feature Breakdown
+1. User Management
+Users can sign up, log in, and manage their profiles. The platform distinguishes between different user roles (e.g., guest, host, admin), allowing users to either book properties or list their own for rent.
+
+2. Property Management
+Hosts can create, update, and delete property listings. Each property includes details like title, description, location, price per night, and is linked to the host user.
+
+3. Booking System
+Guests can browse available properties and create bookings by selecting their desired dates. The system checks for property availability and ensures secure booking confirmation.
+
+4. Payment Processing
+Users can securely pay for their bookings through supported payment methods (e.g., credit card, PayPal). The payment system tracks the payment status to ensure smooth transaction management.
+
+5. Review System
+After completing a stay, guests can leave ratings and reviews for properties they booked. Reviews help maintain quality standards and assist future guests in making informed decisions.
 
