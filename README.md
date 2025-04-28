@@ -47,3 +47,31 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+
+Database Design
+A User can:
+own multiple Properties (1-to-many)
+make multiple Bookings (1-to-many)
+write multiple Reviews (1-to-many)
+
+A Property:
+belongs to one User (host)
+can have multiple Bookings
+can have multiple Reviews
+
+A Booking:
+belongs to one User (guest)
+belongs to one Property
+has one Payment
+can have one Review (after the stay)
+
+A Payment:
+belongs to one Booking
+
+A Review:
+belongs to one Booking
+belongs to one Property
+written by one User
+
+
