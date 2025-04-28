@@ -90,3 +90,19 @@ Users can securely pay for their bookings through supported payment methods (e.g
 5. Review System
 After completing a stay, guests can leave ratings and reviews for properties they booked. Reviews help maintain quality standards and assist future guests in making informed decisions.
 
+API Security
+1. Authentication
+We will implement authentication using secure token-based methods such as JWT (JSON Web Tokens). Authentication ensures that only verified users can access protected parts of the platform, helping safeguard user accounts and sensitive actions like bookings and payments.
+
+2. Authorization
+Authorization will control what actions a user can perform based on their role (e.g., guest, host, admin). This ensures that users can only manage their own data and that sensitive operations (like editing a property or processing a payment) are not accessible to unauthorized users.
+
+3. Rate Limiting
+Rate limiting will be applied to APIs to prevent abuse and protect the system from denial-of-service (DoS) attacks. By limiting the number of requests per user/IP over time, the platform ensures stability and fair use for all users.
+
+4. Data Validation and Sanitization
+All incoming data will be validated and sanitized to prevent common vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS). This step is critical to maintaining the integrity and security of the application.
+
+5. Secure Payment Processing
+Payment information will never be stored directly on our servers. Instead, payments will be handled by trusted third-party payment gateways (e.g., Stripe, PayPal) to ensure compliance with security standards like PCI-DSS, protecting user financial information.
+
