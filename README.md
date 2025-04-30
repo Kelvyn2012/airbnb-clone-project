@@ -1,6 +1,6 @@
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
-Team Roles
+#Team Roles
 Business analyst (BA)
 Understands customer’s business processes
 Translates customer business needs into requirements
@@ -38,7 +38,7 @@ DevOps engineer
 Facilitates cooperation between development and operations teams
 Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery
 
-Technology Stack
+#Technology Stack
 Django: A high-level Python web framework used for building the RESTful API.
 Django REST Framework: Provides tools for creating and managing RESTful APIs.
 PostgreSQL: A powerful relational database used for data storage.
@@ -49,7 +49,7 @@ Docker: Containerization tool for consistent development and deployment environm
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 
-Database Design
+#Database Design
 A User can:
 own multiple Properties (1-to-many)
 make multiple Bookings (1-to-many)
@@ -74,7 +74,7 @@ belongs to one Booking
 belongs to one Property
 written by one User
 
-Feature Breakdown
+#Feature Breakdown
 1. User Management
 Users can sign up, log in, and manage their profiles. The platform distinguishes between different user roles (e.g., guest, host, admin), allowing users to either book properties or list their own for rent.
 
@@ -90,7 +90,7 @@ Users can securely pay for their bookings through supported payment methods (e.g
 5. Review System
 After completing a stay, guests can leave ratings and reviews for properties they booked. Reviews help maintain quality standards and assist future guests in making informed decisions.
 
-API Security
+#API Security
 1. Authentication
 We will implement authentication using secure token-based methods such as JWT (JSON Web Tokens). Authentication ensures that only verified users can access protected parts of the platform, helping safeguard user accounts and sensitive actions like bookings and payments.
 
@@ -106,7 +106,7 @@ All incoming data will be validated and sanitized to prevent common vulnerabilit
 5. Secure Payment Processing
 Payment information will never be stored directly on our servers. Instead, payments will be handled by trusted third-party payment gateways (e.g., Stripe, PayPal) to ensure compliance with security standards like PCI-DSS, protecting user financial information.
 
-CI/CD Pipeline
+#CI/CD Pipeline
 What is CI/CD?
 CI/CD stands for Continuous Integration and Continuous Deployment. It automates the process of testing, building, and deploying code every time changes are made. This ensures that new features, bug fixes, and updates are safely and quickly integrated into the project without manual intervention.
 
