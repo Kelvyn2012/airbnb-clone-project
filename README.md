@@ -1,6 +1,3 @@
-Sure! Here's your text formatted nicely for GitHub using **Markdown**:
-
----
 
 # Airbnb Clone Project
 
