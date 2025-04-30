@@ -142,7 +142,3 @@ The **Airbnb Clone Project** is a comprehensive, real-world application designed
 - **Docker**: Containerize the application for consistent environments.
 - **(Optional)** AWS / Vercel / Render: For automated cloud deployment after successful builds.
 
----
-
-Would you also like me to show a **bonus** version with a clickable Table of Contents for easier GitHub navigation? 📚✨  
-It would look super professional if you're posting this as a project! 🚀
